@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+	<head>
+		<title>
+			Team Invisibru | We Suck At Web-Design
+		</title>
+		<link rel="shortcut icon" href="photos/favicon.jpg" />
+		<style>
+
+			body {
+				background-color:#f6f6f6;
+			}
+
+			ul {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    overflow: hidden;
+			    background-color: #333;
+			}
+
+			li {
+			    float: left;
+			}
+
+			li a, .dropbtn {
+			    display: inline-block;
+			    color: white;
+			    text-align: center;
+			    padding: 14px 16px;
+			    text-decoration: none;
+			}
+
+			li a:hover, .dropdown:hover .dropbtn {
+			    background-color: #111;
+			}
+
+			.dropdown {
+			    display: inline-block;
+			    float:left;
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: #f9f9f9;
+			    min-width: 160px;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			}
+
+			.dropdown-content a {
+			    color: black;
+			    padding: 12px 16px;
+			    text-decoration: none;
+			    display: block;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content {
+			    display: block;
+			}
+			
+			
+			
+			#announcementboard, #calender, #oftheweek {
+				margin:auto;
+				border-radius:3px;
+				border:2px black solid;
+				text-align:center;
+				text-decoration:none;
+				width:800px;
+				height:700px;
+				background-color:white;
+				opacity:1;
+			}
+
+			#announcementboard:hover, #calender:hover {
+				opacity:1;
+			}
+
+			.announcement {
+				margin:auto;
+				border-radius:3px;
+				border:7px #333 solid;
+				text-align:center;
+				text-decoration:none;
+				width:600px;
+				height:100px;
+				opacity:1;
+			}
+
+			.player {
+				margin:auto;
+				border-radius:3px;
+				border:7px #333 solid;
+				width:600px;
+				height:200px;
+					
+			}
+				
+		</style>
+	</head>
+	<body>
+		<ul>
+			<div class="dropdown">
+			    	<a href="index.html" class="dropbtn">Home</a>
+			    	<div class="dropdown-content">
+			      		<a href="index.html#announcements">Announcements</a>
+			      		<a href="index.html#calender">Calender</a>
+			        	<a href="index.html#oftheweek">Player/Retard of the week</a>
+				</div>
+			</div>
+			<!--<li><a class="active" href="comingsoon.html">Games</a></li>-->
+			<div class="dropdown">
+			    	<a href="games.html" class="dropbtn">Games</a>
+			    	<div class="dropdown-content">
+			      		<a href="games.html#announcements">Games we play</a>
+			      		<a href="games.html#calender">Curator recomendations</a>
+				</div>
+			</div>
+			<li><a href="comingsoon.html">About</a></li>
+		</ul>
+		<br>
+		<br>
+		<br>
+		<div id="announcementboard">
+			<h1>Games We Play</h1>
+			<br>
+			<div class="announcement">			
+				<h3>
+					<a href="http://store.steampowered.com/app/730">Counter-Strike:Global Offensive</a>
+				</h3>
+				<h3>$14.99 USD - Windows, Mac, Linux</h3>
+			</div>
+			<br>
+			<br>
+			<div class="announcement">
+				<h3>
+					<a href="http://store.steampowered.com/app/222880">Insurgency</a>
+				</h3>
+				<h3>$14.99 USD- Windows, Mac, Linux</h3>
+			</div>
+			<br>
+			<br>
+			<div class="announcement">
+				<h3>
+					<a href="http://store.steampowered.com/app/440">Team Fortress 2</a>
+				</h3>
+				<h3>Free - Windows, Mac, Linux</h3>
+			</div>
+			<br>
+			<br>
+			<div class="announcement">			
+				<h3>
+					<a href="http://store.steampowered.com/app/274190">Broforce</a>
+				</h3>
+				<h3>$14.99 USD - Windows, Mac, Linux</h3>
+			</div>
+			<br>
+			<br>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div id="calender">
+			<h1>Steam Curator Recomendations</h1>
+			<br>
+			<div class="announcement">			
+				<h3>
+					<a href="comingsoon.html">Coming Soon</a>
+				</h3>
+				<h3>NULL</h3>
+			</div>
+			<br>
+			<br>
+			<div class="announcement">
+				<h3>
+					<a href="comingsoon.html">Coming Soon</a>
+				</h3>
+				<h3>NULL</h3>
+			</div>
+			<br>
+			<br>
+			<div class="announcement">
+				<h3>
+					<a href="comingsoon.html">Coming Soon</a>
+				</h3>
+				<h3>NULL</h3>
+			</div>
+			<br>
+			<br>
+			<div class="announcement">			
+				<h3>
+					<a href="comingsoon.html">Coming Soon</a>
+				</h3>
+				<h3>NULL</h3>
+			</div>
+			<br>
+			<br>
+		</div>
+		<br>
+		<br>
+		<br>
+	</body>
+</html>
+		
